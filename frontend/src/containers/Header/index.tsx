@@ -1,4 +1,4 @@
-import doctor from '../../assets/doctor-pointing-down.png'
+import doctor from '../../assets/smiling-doctor.png'
 import { Container } from "./styles";
 import { Button } from '../../components';
 

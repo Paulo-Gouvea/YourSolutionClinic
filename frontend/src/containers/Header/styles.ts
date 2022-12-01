@@ -31,5 +31,6 @@ export const Container = styled.nav`
 
     img {
         height: 600px;
+        
     }
 `

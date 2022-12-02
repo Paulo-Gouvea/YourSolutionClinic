@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Container } from "./styles"
 
 interface ButtonProps {
@@ -13,7 +14,9 @@ export function Button({
         <Container
             onClick={onClick}
         >
-            <p>{title}</p>
+            <Link to={'/doctor_selection'}>
+                <p>{title}</p>
+            </Link>
         </Container>
     )
 }

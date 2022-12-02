@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../../assets/logo.png";
 import { Container } from "./styles";
 
@@ -7,7 +8,11 @@ export function Navbar(){
             <div className="navbar__itens">
                 <img src={logo} alt="logo da empresa" />
                 <ul>
-                    <li><a href="#"><p>Agendar consulta</p></a></li>
+                    <li>
+                        <Link to={`/doctor_selection`}>
+                            <p>Agendar consulta</p>
+                        </Link>
+                    </li>
                     <li><a href="#"><p>Sobre</p></a></li>
                 </ul>
             </div>

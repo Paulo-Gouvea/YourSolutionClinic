@@ -16,10 +16,17 @@ export const Container = styled.div`
 
     cursor: pointer;
 
-    transition: opacity 1s, margin-top 1s;
+    transition: opacity 1s;
+
+    a {
+        color: #FFF;
+
+        :hover {
+            opacity: 1;
+        }
+    }
 
     :hover {
         opacity: 0.5;
-        margin-top: -15px;
     }
 `;
